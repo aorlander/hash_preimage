@@ -26,7 +26,6 @@ def hash_preimage(target_string):
             b_variable = "{0:08b}".format(int(h_variable, 16))
             if ((target_string)[-k:] == (b_variable)[-k:]):
                 flag=1
-                print("MATCH!")
                 break
             else:
                 x = int(x)
